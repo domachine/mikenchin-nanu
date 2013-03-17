@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "nanu": "*"
+  },
+  "devDependencies": {
+    "mockery": "*",
+    "should": "*"
+  }
+}
