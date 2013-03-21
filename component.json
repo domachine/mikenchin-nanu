@@ -7,6 +7,9 @@
   "scripts": [
     "index.js"
   ],
+  "files": [
+    "package.json"
+  ],
   "dependencies": {},
   "development": {},
   "license": "MIT"
