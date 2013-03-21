@@ -1,10 +1,11 @@
 var nanu = require('nanu');
 module.exports = function (app, next) {
-  var config = app.configuration || {};
+  var instance,
+      config = app.configuration || {};
   config = config.nanu;
   if (config) {
-    nanu = new nanu.Nanu(config.name, config.host);
-    app.register('nanu', nanu);
+    instance = new nanu.Nanu(config.name, config.host);
+    app.register('nanu', instance);
   }
   next();
 };
