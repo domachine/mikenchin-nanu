@@ -1,4 +1,8 @@
 {
+  "name": "mikenchin-nanu",
+  "description": "Wraps nanu as mikenchin module.",
+  "version": "0.0.1",
+  "license": "LGPL",
   "dependencies": {
     "nanu": "*"
   },

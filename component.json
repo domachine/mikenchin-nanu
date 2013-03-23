@@ -1,16 +1,3 @@
 {
   "name": "mikenchin-nanu",
-  "repo": "mikanda/mikenchin-nanu",
-  "description": "Wraps nanu as mikenchin module.",
-  "version": "0.0.1",
-  "keywords": [],
-  "scripts": [
-    "index.js"
-  ],
-  "files": [
-    "package.json"
-  ],
-  "dependencies": {},
-  "development": {},
-  "license": "MIT"
 }
